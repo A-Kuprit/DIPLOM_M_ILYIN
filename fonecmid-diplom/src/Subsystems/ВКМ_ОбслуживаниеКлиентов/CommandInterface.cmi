@@ -26,6 +26,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Document.ЗаказПокупателя.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -33,6 +39,12 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -54,11 +66,13 @@
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_Документы</group>
+      <commands>Document.ЗаказПокупателя.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
       <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_Регистры</group>
+      <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
@@ -72,11 +86,13 @@
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ВКМ_Документы</group>
+      <commands>Document.ЗаказПокупателя.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
       <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ВКМ_Регистры</group>
+      <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
@@ -89,6 +105,8 @@
       <commands>Document.РеализацияТоваровУслуг.StandardCommand.Create</commands>
       <commands>Catalog.Номенклатура.StandardCommand.Create</commands>
       <commands>Catalog.Номенклатура.StandardCommand.CreateFolder</commands>
+      <commands>Document.ЗаказПокупателя.StandardCommand.Create</commands>
+      <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.Create</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>

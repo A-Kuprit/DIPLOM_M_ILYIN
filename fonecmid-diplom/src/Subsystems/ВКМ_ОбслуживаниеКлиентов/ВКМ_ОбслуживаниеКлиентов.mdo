@@ -24,4 +24,6 @@
   <content>Document.РеализацияТоваровУслуг</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Catalog.Номенклатура</content>
+  <content>Document.ЗаказПокупателя</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
 </mdclass:Subsystem>

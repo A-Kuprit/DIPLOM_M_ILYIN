@@ -18,10 +18,22 @@
       <value>Период</value>
     </synonym>
     <type>
-      <types>StandardPeriod</types>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <tabularSections uuid="5f3dbe34-7ba9-46d4-95cc-053804ff2c14">
     <producedTypes>
@@ -33,8 +45,8 @@
       <key>ru</key>
       <value>Договоры и реализации</value>
     </synonym>
-    <attributes uuid="498ef807-d7f6-4e9a-ba2d-82f97ef2ef82">
-      <name>Договор</name>
+    <attributes uuid="ff7cfa5c-73ab-4296-96bb-f12581e001e3">
+      <name>Договоры</name>
       <synonym>
         <key>ru</key>
         <value>Договор</value>
@@ -46,11 +58,11 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="9a3922e7-eaab-4ac8-944b-d928aad3529c">
-      <name>Реализация</name>
+    <attributes uuid="a1c64b51-4913-4013-b434-a89de65cebd1">
+      <name>РеализацияТоваровУслуг</name>
       <synonym>
         <key>ru</key>
-        <value>Реализация</value>
+        <value>Реализации по договору</value>
       </synonym>
       <type>
         <types>DocumentRef.РеализацияТоваровУслуг</types>
