@@ -26,4 +26,5 @@
   <content>Catalog.Номенклатура</content>
   <content>Document.ЗаказПокупателя</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>

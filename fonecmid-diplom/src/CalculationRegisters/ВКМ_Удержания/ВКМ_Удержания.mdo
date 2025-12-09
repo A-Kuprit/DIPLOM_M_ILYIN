@@ -19,6 +19,10 @@
   <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Удержания</value>
+  </listPresentation>
   <resources uuid="74d6dd3f-985e-4e1d-b632-cc19678937aa">
     <name>Результат</name>
     <synonym>

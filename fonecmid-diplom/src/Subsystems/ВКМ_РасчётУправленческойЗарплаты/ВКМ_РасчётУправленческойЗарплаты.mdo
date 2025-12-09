@@ -18,7 +18,6 @@
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
-  <content>Document.ВКМ_НачислениеЗарплаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
@@ -28,7 +27,8 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Catalog.Пользователи</content>
   <content>InformationRegister.ВКМ_ГрафикОтпусков</content>
-  <content>Report.ВКМ_ВыработкаСпециалистов</content>
-  <content>Report.ВКМ_РасчётыССотрудниками</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>

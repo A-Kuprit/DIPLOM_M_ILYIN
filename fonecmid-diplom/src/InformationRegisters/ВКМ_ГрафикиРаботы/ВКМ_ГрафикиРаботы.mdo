@@ -34,16 +34,15 @@
     <value>Графики работы</value>
   </extendedListPresentation>
   <resources uuid="a85fc485-a559-44d5-9889-a6101673df0b">
-    <name>Значение</name>
+    <name>РабочихДней</name>
     <synonym>
       <key>ru</key>
-      <value>Значение</value>
+      <value>Рабочих дней</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>5</precision>
-        <scale>2</scale>
+        <precision>2</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -52,22 +51,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="91b39ccf-5e12-4e56-aad5-96241fb69fcd">
-    <name>ГрафикРаботы</name>
-    <synonym>
-      <key>ru</key>
-      <value>График работы</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
   <dimensions uuid="3f313d71-4502-4508-8ab4-3b43e641ba97">
     <name>Дата</name>
     <synonym>
@@ -79,6 +62,23 @@
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="91b39ccf-5e12-4e56-aad5-96241fb69fcd">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

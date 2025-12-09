@@ -19,10 +19,18 @@
   <actionPeriod>true</actionPeriod>
   <basePeriod>true</basePeriod>
   <schedule>InformationRegister.ВКМ_ГрафикиРаботы</schedule>
-  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.Значение</scheduleValue>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.РабочихДней</scheduleValue>
   <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.Дата</scheduleDate>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </extendedListPresentation>
   <resources uuid="4c2bf987-7bd7-466a-b939-cd267c73336b">
     <name>Результат</name>
     <synonym>
@@ -41,15 +49,15 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="0e0efade-9d3e-47a2-9f0b-9b8a19a5e1ed">
-    <name>ОтработаноЧасов</name>
+    <name>ОтработаноДней</name>
     <synonym>
       <key>ru</key>
-      <value>Отработано часов</value>
+      <value>Отработано дней</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>2</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

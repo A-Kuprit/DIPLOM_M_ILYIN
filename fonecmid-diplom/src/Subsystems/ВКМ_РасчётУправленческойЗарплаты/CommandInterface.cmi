@@ -26,7 +26,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ВКМ_НачислениеЗарплаты.StandardCommand.OpenList</command>
+      <command>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -114,7 +114,7 @@
       <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
-      <commands>Document.ВКМ_НачислениеЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
@@ -145,7 +145,7 @@
       <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
-      <commands>Document.ВКМ_НачислениеЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
@@ -169,7 +169,6 @@
       <group>ActionsPanelCreate</group>
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.Create</commands>
       <commands>Catalog.Пользователи.StandardCommand.Create</commands>
-      <commands>Document.ВКМ_НачислениеЗарплаты.StandardCommand.Create</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.Create</commands>
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.Create</commands>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.Create</commands>
@@ -178,6 +177,7 @@
       <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.Create</commands>
       <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.Create</commands>
       <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.Create</commands>
+      <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
